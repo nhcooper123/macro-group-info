@@ -1,4 +1,4 @@
-# Expectations for PhD students
+# Expectations for Masters (MSc and MRes) students
 
 ## I will...
 * Help you to come up with a project that sounds feasible, aligns with your interests, and will produce a thesis.
