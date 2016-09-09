@@ -2,6 +2,21 @@
 
 We use quite a lot of different computing tools in my group, so I thought I'd make a list. Not all of these will be relevant for every project/student.
 
+## CV
+**START NOW ONE NOW!** 
+From the very beginning of your PhD start a master CV that you will update as you go through your career. This will save time when you need a CV for anything, and ensures you don't forget anything!
+
+Add *everything* you do in categories such as:
+
+* Training. Any workshops or training courses you attend, their location and title.
+* Teaching. Any teaching you do, from demonstrating to lecturing. Also project students you might cosupervise.
+* Conferences. Every conference or meeting you attend with dates and locations. If you present, save the name of the poster or presentation too, and record if you were specially invited or selected to speak after a competition.
+* Grants and awards. Any award you get, no matter how small. Include the title, dates, the amount you received and from where.
+* Professional service. Meetings/seminars you've organised, committees you belong to, societies you belong to etc. 
+* Reviewing. Titles of journals you have reviewed for, and a cumulative total of papers you have reviewed.
+* Outreach. Any outreach events you attend, blog posts you write, and media coverage of your work.
+* Publications. Full citations of each paper with media coverage, altmetric scores and citation counts. Also a short summary of each paper explaining your role on the paper and why it is super cool/shows your amazeballs skillz.
+
 ## Online profiles
 * Twitter: https://twitter.com/. 
 If you already have a personal Twitter you might want to set up an academic account - it depends what kind of stuff you tweet and whether you're happy for potential employers to see it! Twitter is a great resource for finding papers, resources, courses, jobs etc. It's also a supportive and fun community with limitless knowledge. Take advantage of it.
