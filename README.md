@@ -1,6 +1,4 @@
-# Macrovolution and macroecology group info
-## Natalie Cooper
-### Natural History Museum London
+# NHM Macroevolution and macroecology group info
 
 I realised that a lot of my time as a supervisor is spent remembering stuff I've forgotten to tell my students! 
 To stop this from happening, I decided I'd make some notes and leave them here.
