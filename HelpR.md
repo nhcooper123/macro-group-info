@@ -62,7 +62,7 @@ into the R console (replacing `packagename` with the name of the package you're 
 This will bring up a list of all the functions in the package and near the top a link to user guides and vignettes. 
 You should be able to find what you need there.
 
-## I've tried using the function and it keeps giving errors!
+### I've tried using the function and it keeps giving errors!
 
 First check the standard stuff:
 
@@ -90,7 +90,7 @@ Often you will come across these on Google searches, but you can also find them 
 into the R console (replacing `packagename` with the name of the package you're interested in. 
 This will bring up a list of all the functions in the package and near the top a link to user guides and vignettes. 
 
-### Asking for help
+## Asking for help
 
 If you've exhausted all these possibilities it's time to ask for help! But asking for help the right way can help you get an answer much faster.
 
