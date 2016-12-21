@@ -1,5 +1,7 @@
 # Expectations for Masters (MSc and MRes) students
 
+Sometimes it's hard to know what is expected in the student-supervisor interaction. To help remove any doubts, I've made a list below. Please read these carefully. If you feel I'm not holding up my end of the bargain please let me know and we can discuss ways we can make things work better.
+
 ## I will...
 * Help you to come up with a project that sounds feasible, aligns with your interests, and will produce a thesis.
 * Help to develop ideas, interpret results, plan analyses etc.
