@@ -12,19 +12,9 @@ And if you feel like you've tried really hard to fix a problem, do ask for help!
 
 ## General help tips
 1. Google is your friend.
-2. Google is sometimes your annoying friend. 
-Sometimes Google is less helpful, for example when what you're searching for is a common word. 
-In these cases you can try the following.
-⋅⋅* add "CRAN" to the search term
-..* use [rseek](https://www.rseek.org) which will only search R relevant sites
-..* go directly to [stackoverflow](https://www.stackoverflow.com). Many Google searches will take you here anyway.
-3. R mailing lists. 
-There is an R-help mailing list, but I'd avoid this like the plague. You may see answers from the list in your Google searches that will help, but the list itself is often not too beginner friendly. 
-This is weird given that the rest of the R community is really helpful! 
-The mailing lists for [special interest groups](https://www.r-project.org/mail.html) (e.g. R-sig-phylo) are much better, and often host interesting discussions about the topic as well as R.
-4. Twitter. 
-I find Twitter super useful when I have R questions, but it does depend on who follows you, and whether the right person sees your tweet. 
-Your question also needs to fit into 140 characters! Use **#rstats** to tag the tweet. Some useful accounts to follow for R tips are: @GSwithR, @rstudiotips, @RLangTip, @Rbloggers, @rstudio, and @rOpenSci.
+2. Google is sometimes your annoying friend. Sometimes Google is less helpful, for example when what you're searching for is a common word. In these cases you can try adding "CRAN" to the search term, or use [rseek](https://www.rseek.org) which will only search R relevant sites. It may also help to go directly to [stackoverflow](https://www.stackoverflow.com). Many Google searches will take you here anyway.
+3. R mailing lists. There is an R-help mailing list, but I'd avoid this like the plague. You may see answers from the list in your Google searches that will help, but the list itself is often not too beginner friendly. This is weird given that the rest of the R community is really helpful! The mailing lists for [special interest groups](https://www.r-project.org/mail.html) (e.g. R-sig-phylo) are much better, and often host interesting discussions about the topic as well as R.
+4. Twitter. I find Twitter super useful when I have R questions, but it does depend on who follows you, and whether the right person sees your tweet. Your question also needs to fit into 140 characters! Use *#rstats* to tag the tweet. Some useful accounts to follow for R tips are: @GSwithR, @rstudiotips, @RLangTip, @Rbloggers, @rstudio, and @rOpenSci.
 5. R books. There are lots of these on the market now, and the ones that are worth buying/checking out of the library will depend on your interests. Ask someone who works in your field for some advice. And if you're in my group I probably have most of what you'd want in my office...
 
 ## More specific suggestions for different situations
