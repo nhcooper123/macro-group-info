@@ -36,17 +36,20 @@ You can also check out the full [list of R packages](https://cran.r-project.org/
 Often you will come across these on Google searches, but you can also find them by typing `help(package = "packagename")`
 into the R console (replacing `packagename` with the name of the package you're interested in. 
 This will bring up a list of all the functions in the package and near the top a link to user guides and vignettes. 
-You may be able to find what you need there, if you've chose the right package.
+You may be able to find what you need there, if you've chosen the right package.
 4. Twitter. 
-This is an occasion that Twitter can really help as it's easy to ask "What package/function do I need to do X in R?".
+This is an occasion that Twitter can really help as it's easy to ask "What package/function do I need to do X in R?" in under 140 characters.
+Remember to add **#rstats**
 5. Papers that use the method. 
 Many papers these days come with supplemental code, or will at least cite the package they used in the paper. 
 If they didn't use R, see if there is an R equivalent (using Google).
+Or try their method instead.
 
 
 ### I know the function I need to use but can't work out how to use it!
 
 1. Google is your friend. 
+Try googling "How do I do X in R?".
 2. R help.
 This will probably have already come up via Google, but if not you can type `?functionname` into R (replacing `functionname` with the name of the function you're interested in) and the helpfile will load. 
 Some helpfiles are great, some are awful. 
@@ -78,17 +81,21 @@ Now check the more specific stuff:
 You will need to remove any parts of this that are *specific to your data*. For example, the name of the dataset or variables. 
 This sometimes takes a bit of playing around with. 
 But if you got an error, it's almost guaranteed that someone else got the same error at some point!
-2. Check the helpfile.
+2. Check the helpfile for clues.
 Type `?functionname` into R (replacing `functionname` with the name of the function you're interested in) and the helpfile will load. 
 Some helpfiles are great, some are awful. 
 The best place to start is at the bottom with the **Examples**. 
 See if you can run these, then see if you can see how they differ from your code - this might give you a clue to the error.
+Another thing to check is that your data are the right class for the function - if the function is expecting a matrix and you are using a dataframe it will not work. 
+Also if the function expects a factor, and your variable is a character or numeric it will not work.
+You can often solve problems like this using functions like `as.matrix` and `as.factor` to change the class of objects.
 3. Vignettes. 
 Vignettes are longer helpfiles/user guides that package developers sometimes create. 
 These are generally easier to follow than the helpfiles themselves.
 Often you will come across these on Google searches, but you can also find them by typing `help(package = "packagename")`
 into the R console (replacing `packagename` with the name of the package you're interested in. 
 This will bring up a list of all the functions in the package and near the top a link to user guides and vignettes. 
+You may find comments in the vignette that will help solve your problem.
 
 ## Asking for help
 
