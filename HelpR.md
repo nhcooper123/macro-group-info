@@ -15,7 +15,7 @@ And if you feel like you've tried really hard to fix a problem, do ask for help!
 2. Google is sometimes your annoying friend. 
 Sometimes Google is less helpful, for example when what you're searching for is a common word. 
 In these cases you can try the following.
-..* add "CRAN" to the search term
+⋅⋅* add "CRAN" to the search term
 ..* use [rseek](https://www.rseek.org) which will only search R relevant sites
 ..* go directly to [stackoverflow](https://www.stackoverflow.com). Many Google searches will take you here anyway.
 3. R mailing lists. 
