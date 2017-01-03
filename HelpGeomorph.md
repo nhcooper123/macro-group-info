@@ -40,12 +40,13 @@ Very large specimens may need to be placed on the floor.
 Ask a curator if you need help with this as certain things will need to go through pest control procedures before they can be used. 
 Also using modeling clay is usually not allowed here.
 * Shoot in RAW.
-* Remember to take your charger into the collections, and charge over lunch (or take a spare battery/camera) if you're having a heavy data of data collection.
+* Remember to take your charger into the collections, and charge over lunch (or take a spare battery/camera) if you're having a heavy data of data collection. You may also need a spare memory card.
 * Remember photographs don't need to be beautiful, but you do need to be able to see all the landmarks clearly, and the scale bar. 
 
 ## 2. Choose landmarks
-This is the hardest step and also the most important.
-Unfortunately it is often the most subjective!
+First, ensure you know what I mean by a landmark by reading the first couple of chapters of [Zelditch et al. 2012](http://store.elsevier.com/Geometric-Morphometrics-for-Biologists/Miriam-Zelditch/isbn-9780123869036/).
+Choosing landmarks is the most important step of an analysis.
+Unfortunately it is often very difficult as it is quite subjective!
 Choice of landmarks (both the coordinate points you will put on the photo/scan, and any outline curves or semi-landmarks) will depend on the *question* you're asking, the species you're studying and the type of analysis you want to do.
 My advice is to first read as many studies as possible using the same species as you and see which landmarks they used and which anatomical features are fairly easy to identify.
 Landmarks should be present on all the species in your analysis (although you can have absent landmarks if needed), and be repeatable and identifiable. 
@@ -53,14 +54,15 @@ You should be able to place landmarks with confidence, and if you try to place l
 Landmark should also capture the similarities/differences in your specimens that you hope to analyse later on.
 
 I am not an anatomist, and my expertise is confined to a few groups, so you're likely to have a better idea about this than me once you've done lots of reading. 
-However, I'm of course happy to look over your landmark choices (and would suggest that I do so before you start digitizing).  
-
+This is *your* project and *your* question so I expect you to make the final choice of which landmarks to include.
+However, I'm of course happy to look over your landmark choices (and would suggest that I do so before you start digitizing). 
 
 ## 3. Digitize
 You'll hear people use the word "digitize" to mean a bunch of different things (especially within museums!). In geometric morphometrics we mean the process of going from photos to having coordinate data we can play around with, i.e. adding landmarks to our photographs.
 
-Digitizing is pretty simple to do in geomorph (see links below), though some students prefer to download the package [ImageJ](https://imagej.nih.gov/ij/download.html) which can be easier. 
-You'll be using the mouse to click on the photos at the point you want each landmark to be.
+Digitizing is pretty simple to do in [geomorph in R](https://cran.r-project.org/web/packages/geomorph/geomorph.pdf) (see links below for help), though some students prefer to download the package [ImageJ](https://imagej.nih.gov/ij/download.html) which can be easier. 
+Either way, you'll use the mouse to click on the photos at the point you want each landmark to be.
+Curves/semilandmarks are added after the initial digitisation step (see links below for help)
 
 Remember you need to add landmarks in the same order for each specimen, and don't forget to add the scale before you start. 
 Save regularly and make sure to backup your files too. 
@@ -68,7 +70,7 @@ This can be a time consuming process so it's worth having a quick practice with 
 
 ## 4. Procrustes superimposition (GPA)
 GPA is a way to remove rotation, translation and scaling differences among specimens so they can be compared. 
-It's pretty simple to do in geomorph (see links below), and the links below to lectures and a book have great descriptions of it so I won't repeat those here.
+It's pretty simple to do in R with [geomorph](https://cran.r-project.org/web/packages/geomorph/geomorph.pdf) (see links below for help), and the links below to lectures and a book have great descriptions of it so I won't repeat those here.
 
 ## 5. Principal components analysis (PCA)
 PCA allows you to take a collection of correlated variables (your landmark coordinates after GPA), and to find the greatest axes of variation in this data. 
@@ -78,19 +80,24 @@ This is much more useful than plotting raw coordinate positions against each oth
 I won't go into anymore detail here as the links below have great descriptions. 
 Make sure you read these carefully, as PCA is simple but often misunderstood.
 
-PCA is pretty simple to do in geomorph (see links below), and geomorph also has some great plotting functions for plotting landmarks at this stage.
+PCA is pretty simple to do in R with [geomorph](https://cran.r-project.org/web/packages/geomorph/geomorph.pdf) (see links below for help), and geomorph also has some great plotting functions for plotting landmarks at this stage.
 
 ## 6. Error checking/sensitivity analyses
 This needs to be considered from the *start of a project and throughout*. Essentially we want to ensure that any results you obtain are due to super exciting biology, not to some kind of error or bias. This is probably the most important step in doing good science.
 
 Errors can crop up in all kinds of procedures, from the way you take a photo to the way you run an analysis in R. As you work through the project, think carefully about things that might introduce error. Then think about ways you can test whether there is any error (there's almost always going to be some) and how big it is. To help get you thinking, think about whether someone else following your protocol would get the same result?
 
-A quick aside: there will be additional steps of error checking in your later analyses that we call sensitivity analyses. I often think of these as trying really hard to break your result. If you don't break it then it's more likely to be correct. For example, you might wonder if your significant result is because you have 20 specimens from one species that are driving the pattern. In this case, repeat the analysis removing those species - do you get the same result? You may need to use rarefaction or similar to deal with sample size differences. If you're assuming males and females are the same so you can use non-sexed individuals you should check this is true using specimens with sex data. This is just to point out that error checking doesn't end once you've got your landmarks together, it continues to the end of the project. Note that often you'll pop these kinds of analyses into an appendix if they aren't significant.
+A quick aside: there will be additional steps of error checking in your later analyses that we call sensitivity analyses. I often think of these as trying really hard to break your result. If you don't break it then it's more likely to be correct. For example, you might wonder if your significant result is because you have 20 specimens from one species that are driving the pattern. In this case, repeat the analysis removing those specimens - do you get the same result? You may need to use rarefaction or similar to deal with sample size differences. If you're assuming males and females are the same so you can use non-sexed individuals, you should check this is true using specimens with sex data. This is just to point out that error checking doesn't end once you've got your landmarks together, it continues to the end of the project. Note that often you'll pop these kinds of analyses into an appendix.
 
 ## 7. Additional analyses
-This is the point where things get (even more) interesting! You now have all your shape data, and it's time to actually investigate the questions you wanted to answer when you started the project! Woo!
+This is the point where things get (even more) interesting! You now have all your shape data (in the form of principal components scores for each species), and it's time to actually investigate the questions you wanted to answer when you started the project! Woo!
 
-Of course this means the analyses you choose will depend on your *question*. There are as many methods as there are questions, so I can't give specific advice here. But the first step is always to go away and read lots of papers asking similar questions. What methods do they use? Are these possible with your data?
+Of course this means the analyses you choose will depend on your *question*. There are as many methods as there are questions, so I can't give specific advice here. But the first step is always to go away and read lots of papers asking similar questions. 
+What methods do they use? 
+Are these possible with your data?
+
+You may also want to do something a bit more complex with geometric morphometrics. 
+In this case I'd start by seeing if the analysis is possible in geomorph and go from there.
 
 ## Getting help with geometric morphometrics
 1. I highly advise getting hold of this book ([Zelditch et al. 2012](http://store.elsevier.com/Geometric-Morphometrics-for-Biologists/Miriam-Zelditch/isbn-9780123869036/)) and reading the first few chapters, plus any chapters later in the book that are relevant to the analyses you will be doing. 
