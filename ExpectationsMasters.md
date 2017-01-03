@@ -21,6 +21,7 @@ Sometimes it's hard to know what is expected in the student-supervisor interacti
 * Participate in internal activities such as lab meetings, journal clubs and seminars (where feasible). 
 * Put your code on GitHub (where feasible) and share your data.
 * Ensure that you give me a copy (electronic) of your thesis and all of your data before you head off after your project is over.
+* If possible, write a short blog post about your project for the group blog at [Macro at the Museum](https://macromuseum.github.io).
 * Be enthusiastic and enjoy your research!
 
  
