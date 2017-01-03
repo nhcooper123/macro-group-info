@@ -104,7 +104,7 @@ In this case I'd start by seeing if the analysis is possible in geomorph and go 
 Don't panic too much about the maths or the equations, just try to get a general understanding of what each method is doing, especially GPA and PCA.
 Try and get a copy from the library first, but I also have a copy in my office.
 
-2. David Polly has an excellent [set of lectures](http://www.indiana.edu/~g562/) about all basic topics in geometric morphometrics including PCA, GPA and a basic workflow for an analysis using geomorph.
+2. David Polly has an excellent [set of lectures](http://www.indiana.edu/~g562/) about all basic topics in geometric morphometrics including PCA and GPA. Note that these use Mathematica. There are also slides [here](http://www.indiana.edu/~g562/PBDB2013/) for an R based course with a basic workflow for an [analysis using geomorph](http://www.indiana.edu/~g562/PBDB2013/Day%202B%20-%20Geometric%20Morphometrics%20in%20R.pdf).
 
 3. Emma Sherratt has put together an excellent tutorial/vignette for [geomorph](http://www.public.iastate.edu/~dcadams/PDFPubs/Quick%20Guide%20to%20Geomorph%20v2.0.pdf) from inputting landmarks to complex analyses.
 
