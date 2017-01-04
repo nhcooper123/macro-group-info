@@ -1,9 +1,11 @@
 # Geometric morphometrics
-Morphometrics is the study of quantitative measurements of morphological traits, e.g. skull length, skull width etc.
+Morphometrics is the study of shape and size and their relationships with other variables.
+Traditional morphometrics uses quantitative measurements of morphological traits, e.g. skull length, skull width etc.
 *Geometric morphometrics* uses geometric coordinates (x and y for 2D; x, y and z for 3D) instead of measurements to investigate morphological features.
 Geometric morphometrics have become a really popular way to investigate morphology (size and shape), and are a particularly useful tool when using museum specimen data.
 Many students and postdocs in the group will use these methods in their projects. 
-This is not intended to be a comprehensive guide at all, just a place for me to put links to helpful web pages etc. where people have explained things better than I can!
+
+This is not intended to be a comprehensive guide (at all!), just a place to put links to helpful web pages etc. where people have explained things better than I can! There is a resource list near the end, but I'll start with a quick explanation of the main steps involved.
 
 ## Workflow of a simple geometric morphometrics analysis
 1. Collect data
@@ -44,17 +46,23 @@ Also using modeling clay is usually not allowed here.
 * Remember photographs don't need to be beautiful, but you do need to be able to see all the landmarks clearly, and the scale bar. 
 
 ## 2. Choose landmarks
-First, ensure you know what I mean by a landmark by reading the first couple of chapters of [Zelditch et al. 2012](http://store.elsevier.com/Geometric-Morphometrics-for-Biologists/Miriam-Zelditch/isbn-9780123869036/).
+First, ensure you know what I mean by a landmark (and the definition of Type I, II and III landmarks and semi-landmarks) by reading the first couple of chapters of [Zelditch et al. 2012](http://store.elsevier.com/Geometric-Morphometrics-for-Biologists/Miriam-Zelditch/isbn-9780123869036/).
 Choosing landmarks is the most important step of an analysis.
 Unfortunately it is often very difficult as it is quite subjective!
 Choice of landmarks (both the coordinate points you will put on the photo/scan, and any outline curves or semi-landmarks) will depend on the *question* you're asking, the species you're studying and the type of analysis you want to do.
+
+Type I landmarks are generally favoured as they are easier to put in the right place and give more information about the development of the feature. 
+However, often you'll need some Type II and Type III landmarks.
+Choosing landmarks carefully is really important - they need to be informative for the question you are trying to answer and capture the variation in shape that you are interested in.
+They should also be easy to identify and repeat to reduce measurement error.
+
 My advice is to first read as many studies as possible using the same species as you and see which landmarks they used and which anatomical features are fairly easy to identify.
 Landmarks should be present on all the species in your analysis (although you can have absent landmarks if needed), and be repeatable and identifiable. 
 You should be able to place landmarks with confidence, and if you try to place landmarks on the same specimen twice, their locations should be as close to identical as possible (this is something to test in the error checking stage).
-Landmark should also capture the similarities/differences in your specimens that you hope to analyse later on.
+Landmarks should also capture the similarities/differences in your specimens that you hope to analyse later on.
 
-I am not an anatomist, and my expertise is confined to a few groups, so you're likely to have a better idea about this than me once you've done lots of reading. 
-This is *your* project and *your* question so I expect you to make the final choice of which landmarks to include.
+My morphological expertise is limited and confined to a few groups, so you're likely to have a better idea about this than me once you've done lots of reading. 
+This is *your* project and *your* question so I expect you to make the final choice of which landmarks to include (science!).
 However, I'm of course happy to look over your landmark choices (and would suggest that I do so before you start digitizing). 
 
 ## 3. Digitize
@@ -85,7 +93,7 @@ PCA is pretty simple to do in R with [geomorph](https://cran.r-project.org/web/p
 ## 6. Error checking/sensitivity analyses
 This needs to be considered from the *start of a project and throughout*. Essentially we want to ensure that any results you obtain are due to super exciting biology, not to some kind of error or bias. This is probably the most important step in doing good science.
 
-Errors can crop up in all kinds of procedures, from the way you take a photo to the way you run an analysis in R. As you work through the project, think carefully about things that might introduce error. Then think about ways you can test whether there is any error (there's almost always going to be some) and how big it is. To help get you thinking, think about whether someone else following your protocol would get the same result?
+Errors can crop up in all kinds of procedures, from the way you take a photo to the way you run an analysis in R. As you work through the project, think carefully about things that might introduce error. Then think about ways you can test whether there is any error (there's almost always going to be some) and how big it is. To help get you thinking, think about whether someone else following your protocol would get the same result? Take a look at [Claude](http://lib.du.ac.ir/documents/10157/60743/Morphometrics+With+R.pdf) pages 63-65 for ideas on sources of error. 
 
 A quick aside: there will be additional steps of error checking in your later analyses that we call sensitivity analyses. I often think of these as trying really hard to break your result. If you don't break it then it's more likely to be correct. For example, you might wonder if your significant result is because you have 20 specimens from one species that are driving the pattern. In this case, repeat the analysis removing those specimens - do you get the same result? You may need to use rarefaction or similar to deal with sample size differences. If you're assuming males and females are the same so you can use non-sexed individuals, you should check this is true using specimens with sex data. This is just to point out that error checking doesn't end once you've got your landmarks together, it continues to the end of the project. Note that often you'll pop these kinds of analyses into an appendix.
 
@@ -99,10 +107,12 @@ Are these possible with your data?
 You may also want to do something a bit more complex with geometric morphometrics. 
 In this case I'd start by seeing if the analysis is possible in geomorph and go from there.
 
-## Getting help with geometric morphometrics
+## Resources for learning geometric morphometrics
 1. I highly advise getting hold of this book ([Zelditch et al. 2012](http://store.elsevier.com/Geometric-Morphometrics-for-Biologists/Miriam-Zelditch/isbn-9780123869036/)) and reading the first few chapters, plus any chapters later in the book that are relevant to the analyses you will be doing. 
 Don't panic too much about the maths or the equations, just try to get a general understanding of what each method is doing, especially GPA and PCA.
 Try and get a copy from the library first, but I also have a copy in my office.
+
+1. Another useful book is [Morphometrics with R](http://lib.du.ac.ir/documents/10157/60743/Morphometrics+With+R.pdf) by Julien Claude. It is a little harder to read than Zelditch, but more focused on practical analysis. Note that I'd generally advise using the [geomorph](https://cran.r-project.org/web/packages/geomorph/geomorph.pdf) package (see links below) to do these analyses in R, but many of the principles are the same. Again the library should have a copy, or I have a copy in my office. It's also available as a [PDF](http://lib.du.ac.ir/documents/10157/60743/Morphometrics+With+R.pdf).
 
 2. David Polly has an excellent [set of lectures](http://www.indiana.edu/~g562/) about all basic topics in geometric morphometrics including PCA and GPA. Note that these use Mathematica. There are also slides [here](http://www.indiana.edu/~g562/PBDB2013/) for an R based course with a basic workflow for an [analysis using geomorph](http://www.indiana.edu/~g562/PBDB2013/Day%202B%20-%20Geometric%20Morphometrics%20in%20R.pdf).
 
@@ -110,5 +120,6 @@ Try and get a copy from the library first, but I also have a copy in my office.
 
 4. The [geomorph vignette](https://cran.r-project.org/web/packages/geomorph/geomorph.pdf) may also be helpful for more complex analyses.
 
-5. For error checking, take a look at [Fruciano 2016](http://link.springer.com/article/10.1007/s00427-016-0537-4) a review of the subject in Evolution.
+5. For error checking, take a look at [Fruciano 2016](http://link.springer.com/article/10.1007/s00427-016-0537-4), a review of the subject in Evolution. Also take a look at [Claude](http://lib.du.ac.ir/documents/10157/60743/Morphometrics+With+R.pdf) pages 63-65 for ideas on sources of error. 
 
+6. I also have a basic practical on doing geometric morphometrics in R that I teach to Masters students. The materials are [here]()
