@@ -13,14 +13,14 @@ Currently the main channels we have are below.
 These will expand organically through time, and you're welcome to create new channels if these are helpful and have a set purpose.
 If channels are only needed for a short time they can be archived/deleted when you're done with them (e.g. if there is a channel for a certain paper or conference).
 
-1. #general. A place for general (work-related) queries. e.g. how do I use the printer? where is this office? Can I use the collections next week? Can I meet with you about X? etc.
+1. #general. A place for general (work-related) queries. e.g. How do I use the printer? Where is this office? Can I use the collections next week? Can I meet with you about X? etc.
 2. #random. A place for non-work related chat. e.g. Shall we get lunch at 1pm? Anyone want to come to this show with me? Check out this [gif](http://www.hilariousgifs.com/manatee-squash-face-into-glass/) of a manatee crashing into some glass! etc.
 3. #papers. A place to post any papers you think others in the group should read/might find interesting.
 4. #r. A place to ask R questions. I hope everyone will help answering these. If you solve the question on your own please post the solution so we can search for it at a later date. It's likely someone else will have the same problem at some point.
 5. Various research project based channels. There will be one for your project (maybe more for PhD students and postdocs).
 
 ## What if the message is mostly directed at one (or more) person?
-You can at @ then the username of the person or persons to emphasise that the message is for that person.
+You can use @ then the username of the person or persons to emphasise that the message is for that person.
 
 ## What if I need to contact someone privately?
 You can use the direct messages service to send anyone (or more than one person) a private message. 
