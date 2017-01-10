@@ -54,7 +54,6 @@ You can use @ then the username of the person or persons to emphasise that the m
 
 ## What if I need to contact someone privately?
 You can use the direct messages service to send anyone (or more than one person) a private message. 
-This might be appropriate if you have some admin that needs to be sorted out that not everyone in the group needs to know about.
 
 ## Can I comment on other people's questions?
 Yes definitely!
