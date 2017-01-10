@@ -20,6 +20,7 @@ Below are some guidelines for using the group:
 Some guidelines on where to start with this process can be found [here](https://github.com/nhcooper123/macro-group-info/blob/master/HelpR.md) if you're not sure where to start.
 1. Decide which channel is best to post your question on.
 If you can't find an appropriate channel feel free to create a new one.
+Remember to search the channel to make sure no-one has posted the same question previously.
 1. Post away!
 
 ## When posting a question...
