@@ -47,6 +47,23 @@ We would prefer not to host questions from Masters students at this time because
 Your supervisor should be able to help with stats.
 NHM_R_Help will help if you know what statistical test you need to use but are unsure how to do this in R.
 
+* To aid readability, code examples and output should be formatted using a
+'fence' - three backticks (```) before and after the block. This tells slack
+to format the block using a fixed-width font e.g.,
+
+    ```
+    ParsePostcode <- function(postcode) {
+        # http://www.brunningonline.net/simon/blog/archives/postcode_basic.py.html
+        postcode <- gsub(' ', '', postcode)
+        first <- substring(postcode, 1, nchar(postcode) - 3)
+        second <- substring(postcode, nchar(postcode) - 2)
+        return (cbind(first, second))
+    }
+    ```
+
+    [A guide](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
+    to formatting messages.
+
 # Some additional help with using Slack
 
 ## What if the message is mostly directed at one (or more) person?
