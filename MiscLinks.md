@@ -8,9 +8,14 @@ Some links to help that haven't found their own page yet!
 * [Productivity tips](http://www.ecoevoblog.com/2015/04/17/productivity/)
 * [Dealing with stress](http://www.ecoevoblog.com/2015/02/09/stress-busting/)
 * [Networking](http://www.ecoevoblog.com/2013/04/08/top-tips-for-science-networking/)
+* [Handy tips on new software tools](https://treesinspace.com/software-tools/) for writing, data management, figures etc.
+
+## Careers advice
+
+* [Post Phd options](https://peptalkecology.wordpress.com/2018/02/11/the-post-phd-conversation/amp/?__twitter_impression=true)
+* [MIT's kit for CVs etc.](http://mitcommlab.mit.edu/be/use-the-commkit/)
 * [CVs](http://www.ecoevoblog.com/2013/02/01/academic-cvs-dos-donts-and-maybes/)
 * [Career planning](http://www.ecoevoblog.com/2015/01/09/career-planning-for-phd-students/)
-* [Handy tips on new software tools](https://treesinspace.com/software-tools/) for writing, data management, figures etc.
 
 ## Sciencing Resources
 
@@ -21,6 +26,8 @@ Some links to help that haven't found their own page yet!
 
 ### Writing publications
 * [http://www.britishecologicalsociety.org/wp-content/uploads/BES-Guide-to-Getting-Published.pdf]
+* [http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619]
+* [http://trophiccascades.forestry.oregonstate.edu/sites/trophic/files/Lafferty_WritingScientificPaper.pdf]
 
 ### Peer review
 * [http://www.britishecologicalsociety.org/wp-content/uploads/Publ_Peer-Review-Booklet.pdf]
@@ -32,4 +39,9 @@ Some links to help that haven't found their own page yet!
 * [http://www.annualreviews.org/doi/10.1146/annurev.ecolsys.110308.120159]
 * [http://www.molecularecologist.com/2013/04/species-distribution-models-in-r/]
 
+### Git stuff
+* [https://github.com/k88hudson/git-flight-rules/blob/master/README.md]
+* [http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668]
 
+### R programming
+* [http://r4ds.had.co.nz/]
