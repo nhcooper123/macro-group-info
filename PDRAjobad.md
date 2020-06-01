@@ -18,6 +18,8 @@ Come and join us at NHM London! We are hiring a postdoc on a Leverhulme-funded p
 
 At the moment the most common questions are likely related to the COVID-19 situation. There is still a lot of uncertainty, but I can try my best to answer your questions. We will not be returning to the NHM until it is safe to do so.
 
+Check out our [Group Philosophy](https://github.com/nhcooper123/macro-group-info/blob/master/GroupPhilosophy.md) to learn more about the group.
+
 ## Job description (copied from the NHM job site)
 
 The successful candidate will conduct research as part of a multi-institutional team working on a three-year, Leverhulme-funded project investigating how specialisation to marine environments affects macroevolutionary patterns in toothed whales (odontocetes) and seals and sealions (pinnipeds). We aim to investigate diversification rates, body size evolution, and species responses to extrinsic factors, such as ocean restructuring and global change.
