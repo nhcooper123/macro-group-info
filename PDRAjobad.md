@@ -59,3 +59,10 @@ This is an exciting opportunity for an outstanding early career researcher to ta
 **Please contact Natalie Cooper (natalie.cooper@nhm.ac.uk or @nhcooper123) if you have any questions.**
 
 [APPLY HERE](https://careers.nhm.ac.uk/templates/CIPHR/jobdetail_1908.aspx)
+
+### Have you considered a MSCA Individual Fellowship?
+If you're based outside the UK, and you're interested in this job but maybe it's not the perfect fit and/or you want to design your own project have you considered applying for a MSCA fellowship to work with us at NHM London?
+
+Details can be found [here](https://ec.europa.eu/research/mariecurieactions/actions/get-funding/individual-fellowships-2020_en)
+
+These fellowships are **amazing**. Really well paid, and a great opportunity to design your own project. If you'd be interested in working on any questions with vertebrates let me know and maybe we (myself and/or another of my NHM colleagues) can write a proposal together. The deadline for these is early September, but you'd want to start writing over the summer. The profile of a successful proposal is one where you bring us skills and we can train you in skills so it is good for your future job prospects.
