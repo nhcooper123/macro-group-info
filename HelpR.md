@@ -73,7 +73,7 @@ First check the standard stuff:
 2. Are you using R Studio? If so try restarting R Studio, it sometimes crashes for no reason.
 3. Have you got all the right packages installed *and* loaded (using `library(packagename)`)
 4. Are you using the right working directory? Is your data where you think it should be?
-5. Try re-running your code from the beginning of the script, *line by line*. Sometimes I've made a mistake reading in the data at the top of a script but because I've run the whole thing I miss the error and cause all sorts of downstream problems! Don't forget to start with `rm(list = ls())` so you're working with a clean R. Check that each stage has worked as expected.
+5. Try re-running your code from the beginning of the script, *line by line*. Sometimes I've made a mistake reading in the data at the top of a script but because I've run the whole thing I miss the error and cause all sorts of downstream problems! Check that each stage has worked as expected.
 
 Now check the more specific stuff:
 
