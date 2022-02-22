@@ -2,6 +2,8 @@
 
 BES Macro 2022 is our 10th anniversary meeting so we decided to try something different. Not everyone can (or wants to) travel to the UK, so we have a series of alternative ways you can get involved. There will be FOUR different options for attending BES Macro…
 
+![]({{ site.baseurl }}/spider.gif)
+
 - OPTION 1: BES Macro HQ. Sheffield University. UK. 
 This event will include live contributed talks, the student plenary, live and online workshops (including "Being an Ally" run by the REED Ecological Network), live discussions, live networking/social events, and pre-recorded talks from around the world. The final day will look at future directions for macroecology. Tea/coffee and lunches will be included. 
 
@@ -39,6 +41,9 @@ If you are not able to register, either because of lack of funds, or because the
 We will select the winner by 15th April so you have chance to plan your trip.
 
 ## THIS SOUNDS AWESOME, HOW DO I REGISTER?
+
+![]({{ site.baseurl }}/sloth.gif)
+
 Note that the pricing is different for each event. Please register for the correct event! 
 
 - OPTION 1: BES Macro HQ. Sheffield University. UK. 
@@ -61,21 +66,17 @@ The organisers of each hub will put together a program that includes live and pr
 
 ## REGISTRATION DEADLINES
 
-- Student plenary applications:  3rd APRIL 2022.*
-
+- Student plenary applications:  *3rd APRIL 2022*
 - Early bird registration and talk submission ends at midnight on Monday 2nd May 2022. We will contact attendees after this to confirm talk slots.
-
 - Normal registration ends at midnight on Monday, 6th June 2022. 
-
-- Online registration ends at midnight on Sunday, 3rd July 2022.
-
+- Online registration ends at 9am on Monday, 4th July 2022.
 
 ## Any questions?
 
-General: macro@britishecologicalsociety.org
-Sheffield: macro@britishecologicalsociety.org
-Brazil: arthurama.magalhaes@gmail.com
-India: jahnavi@csirccmb.org
-Ireland: kevin.healy@nuigalway.ie
-Online: macro@britishecologicalsociety.org
+- General: macro@britishecologicalsociety.org
+- Sheffield: macro@britishecologicalsociety.org
+- Brazil: arthurama.magalhaes@gmail.com
+- India: jahnavi@csirccmb.org
+- Ireland: kevin.healy@nuigalway.ie
+- Online: macro@britishecologicalsociety.org
 
