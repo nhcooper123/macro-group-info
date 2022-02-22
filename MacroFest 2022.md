@@ -2,8 +2,6 @@
 
 BES Macro 2022 is our 10th anniversary meeting so we decided to try something different. Not everyone can (or wants to) travel to the UK, so we have a series of alternative ways you can get involved. There will be FOUR different options for attending BES Macro…
 
-![](spider.gif)
-
 <p align="center">
   <img src="spider.gif" />
 </p>
@@ -46,7 +44,9 @@ We will select the winner by 15th April so you have chance to plan your trip.
 
 ## THIS SOUNDS AWESOME, HOW DO I REGISTER?
 
-![]({{ site.baseurl }}/sloth.gif)
+<p align="center">
+  <img src="sloth.gif" />
+</p>
 
 Note that the pricing is different for each event. Please register for the correct event! 
 
@@ -79,7 +79,7 @@ The organisers of each hub will put together a program that includes live and pr
 
 - General: macro@britishecologicalsociety.org
 - Sheffield: macro@britishecologicalsociety.org
-- Brazil: arthurama.magalhaes@gmail.com
+- Brazil: arthurama.magalhaes@gmail.com, reginaldof.gusmao@gmail.com
 - India: jahnavi@csirccmb.org
 - Ireland: kevin.healy@nuigalway.ie
 - Online: macro@britishecologicalsociety.org
