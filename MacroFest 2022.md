@@ -2,7 +2,7 @@
 
 BES Macro 2022 is our 10th anniversary meeting so we decided to try something different. Not everyone can (or wants to) travel to the UK, so we have a series of alternative ways you can get involved. There will be FOUR different options for attending BES Macro…
 
-![]({{ site.baseurl }}/spider.gif)
+![](spider.gif)
 
 - OPTION 1: BES Macro HQ. Sheffield University. UK. 
 This event will include live contributed talks, the student plenary, live and online workshops (including "Being an Ally" run by the REED Ecological Network), live discussions, live networking/social events, and pre-recorded talks from around the world. The final day will look at future directions for macroecology. Tea/coffee and lunches will be included. 
