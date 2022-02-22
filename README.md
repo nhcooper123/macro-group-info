@@ -1,9 +1,5 @@
 # NHM Macroevolution and macroecology group info
 
-## JOB!!! DEADLINE 13th JULY 2020.
-
-We are advertising a postdoc job! More details available [here](https://github.com/nhcooper123/macro-group-info/blob/master/PDRAjobad.md). 
-
 ## What's in this repo?
 
 I realised that a lot of my time as a supervisor is spent remembering stuff I've forgotten to tell my students! 
